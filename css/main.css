@@ -81,6 +81,7 @@
 }
 @media screen and (max-width:768px) {
 .down-arrow {
+    font-size: 1.75rem;
     margin-bottom: 5%;
         }
 }
