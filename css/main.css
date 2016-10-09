@@ -310,7 +310,7 @@
 .contact-text {
     font-weight: 500;
     font-size: 2rem;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
     padding: 2%;
 }
 .contact-text i {
@@ -350,7 +350,7 @@
 }
 @media screen and (max-width: 700px) {
     .social {
-        line-height: 3rem;
+        line-height: 2rem;
         margin-top: 30%;
         margin-bottom: 50%;
     }
