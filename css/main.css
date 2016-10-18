@@ -179,7 +179,6 @@
 
 .work {
     background-color: #F9F9F9;
-    padding-bottom: 2%;
 }
 .work-text {
     font-size: 1.5rem;
@@ -236,6 +235,9 @@
     margin-bottom: 40px;
     font-size: 1.5rem;
 }
+.paperbots-text h5 {
+    padding: 1% 3% 1% 3%;
+}
 .udo {
     padding: 3%;
     margin-top: 4%;
@@ -270,19 +272,31 @@
     margin-bottom: 40px;
     font-size: 1.5rem;
 }
+.udo-text h5 {
+    padding: 1% 3% 1% 3%;
+}
+
 .more {
     text-align: center;
     width: 100%;
-    margin: auto;
-    padding-bottom: 3%;
+    padding: 1.5%;
+    color: #ffffff;
+    background: #0066D2;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0279F6), to(#015EC1));
+    background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#0279F6), to(#015EC1));
+    background: -moz-linear-gradient(center top, #0279F6, #015EC1);
 }
 
-
+.more:hover {
+    background: #015BBA;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0170E4), to(#0154AB));
+    background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#0170E4), to(#0154AB));
+    background: -moz-linear-gradient(center top, #0170E4, #0154AB);
+}
 .more a {
     color: #ffffff;
     font-weight: 400;
     font-size: 1.75rem;
-    text-decoration: none;
 }
 @media screen and (max-width:700px) {
     .more a {
@@ -292,7 +306,7 @@
 
 @media screen and (max-width:700px) {
     .more {
-        padding-bottom: 5%;
+        padding: 5%;
     }
 }
 .contact {
