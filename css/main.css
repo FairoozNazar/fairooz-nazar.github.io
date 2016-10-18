@@ -225,14 +225,14 @@
 .paperbots-text h4 {
     font-weight: 500;
     font-size: 1.75rem;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 .paperbots-text p {
     font-weight: 400;
     color: #323232;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 1.5rem;
 }
 .paperbots-text h5 {
@@ -262,14 +262,14 @@
 .udo-text h4 {
     font-weight: 500;
     font-size: 1.75rem;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 .udo-text p {
     color: #323232;
     font-weight: 400;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 1.5rem;
 }
 .udo-text h5 {
@@ -278,6 +278,7 @@
 
 .more {
     text-align: center;
+    text-decoration: none;
     width: 100%;
     padding: 1.5%;
     color: #ffffff;
