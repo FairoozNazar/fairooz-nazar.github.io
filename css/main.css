@@ -179,6 +179,7 @@
 
 .work {
     background-color: #F9F9F9;
+    padding-bottom: 2%;
 }
 .work-text {
     font-size: 1.5rem;
@@ -270,24 +271,29 @@
     font-size: 1.5rem;
 }
 .more {
-    padding: 3%;
     text-align: center;
     width: 100%;
+    margin: auto;
+    padding-bottom: 3%;
 }
-@media screen and (max-width: 700px) {
-    .more {
-        padding: 6%;
-        font-size: 1rem;
+
+
+.more a {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.75rem;
+    text-decoration: none;
+}
+@media screen and (max-width:700px) {
+    .more a {
+        font-size: 1.5rem;
     }
 }
-.more a {
-    color: #323232;
-    font-weight: 400;
-    font-size: 2rem;
-}
-.more a:hover {
-    font-weight: 500;
-    color: #000000;
+
+@media screen and (max-width:700px) {
+    .more {
+        padding-bottom: 5%;
+    }
 }
 .contact {
     background-color: #ffffff;
@@ -343,6 +349,7 @@
     color: #323232;
     margin-top: 30%;
     font-size: 1.75rem;
+    line-height: 2.5rem;
     font-weight: 400;
 }
 @media screen and (max-width: 700px) {
@@ -351,4 +358,16 @@
         margin-top: 30%;
         margin-bottom: 50%;
     }
+}
+.btn-primary {
+    background: #0066D2;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0279F6), to(#015EC1));
+    background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#0279F6), to(#015EC1));
+    background: -moz-linear-gradient(center top, #0279F6, #015EC1);
+}
+.btn-primary:hover {
+    background: #015BBA;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0170E4), to(#0154AB));
+    background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#0170E4), to(#0154AB));
+    background: -moz-linear-gradient(center top, #0170E4, #0154AB);
 }
