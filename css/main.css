@@ -363,13 +363,19 @@
 .social {
     color: #323232;
     margin-top: 30%;
-    font-size: 1.75rem;
-    line-height: 2.5rem;
+    font-size: 2rem;
+    line-height: 2.75rem;
     font-weight: 400;
 }
+.social a {
+    color: #015BBA;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
 @media screen and (max-width: 700px) {
     .social {
-        line-height: 2rem;
+        line-height: 2.5rem;
         margin-top: 30%;
         margin-bottom: 50%;
     }
