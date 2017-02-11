@@ -280,20 +280,21 @@
     text-align: center;
     text-decoration: none;
     width: 100%;
-    padding: 1.5%;
-    color: #ffffff;
-    background: #0066D2;
-    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0279F6), to(#015EC1));
-    background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#0279F6), to(#015EC1));
-    background: -moz-linear-gradient(center top, #0279F6, #015EC1);
+    padding: 3%;
+    color: #757575;
 }
 
 .more:hover {
+    text-decoration: none;
+    color: #015BBA;
+}
+
+/* .more:hover {
     background: #015BBA;
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0170E4), to(#0154AB));
     background: -webkit-linear-gradient(0% 0%, 0% 100%, from(#0170E4), to(#0154AB));
     background: -moz-linear-gradient(center top, #0170E4, #0154AB);
-}
+} */
 .more a {
     color: #ffffff;
     font-weight: 400;
@@ -307,7 +308,7 @@
 
 @media screen and (max-width:700px) {
     .more {
-        padding: 5%;
+        padding: 7%;
     }
 }
 .contact {
